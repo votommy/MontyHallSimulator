@@ -7,6 +7,14 @@
     </head>
     <body>
         <h1>MONTY HALL SIMULATOR</h1>
+        <div id="description-container">
+            <button id="show-hide-button" onclick="toggleDetails()">Show details</button>
+            <p id="description-text">
+                Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to swtich to door No. 2?" Is it to your advantage to switch your choice? (<a href="https://en.wikipedia.org/wiki/Monty_Hall_problem" target="_blank">Wikipedia</a>)
+                <br /><br />
+                This simulator runs the scenario repeatedly, showing that it's advantageous to switch your choice every time. The longer the simulator runs, theoretically, the closer to 66.66% the chance will be that you win the car if you switch.
+            </p>
+        </div>
         <div class="container">
         <!--   STAY  -->
         <div class="stay-container">
@@ -30,7 +38,7 @@
             <span id="switch-percentage">Percentage:</span>
         </div>
         </div>
-        <h4>Developed by: Tommy Vo | <a id="github-link" href="https://github.com/votommy/MontyHallSimulator">Github</a></h4>
+        <h4>Developed by: Tommy Vo | <a id="github-link" href="https://github.com/votommy/MontyHallSimulator" target="_blank">Github</a></h4>
         
         <script src="index.js"></script>
     </body>

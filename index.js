@@ -1,3 +1,15 @@
+function toggleDetails() {
+    const buttonEl = document.querySelector("#show-hide-button");
+    const descriptionEl = document.querySelector("#description-text");
+    if (descriptionEl.style.display === 'block') {
+        descriptionEl.style.display = 'none';
+        buttonEl.innerHTML = 'Show details';
+    } else {
+        descriptionEl.style.display = 'block';
+        buttonEl.innerHTML = 'Hide details';
+    }
+}
+
 let rounds = 0;
 let stayWins = 0;
 let switchWins = 0;
