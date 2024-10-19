@@ -1,0 +1,50 @@
+h1, h4 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  
+  .stay-container, .switch-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 40%;
+    padding: 1rem;
+  }
+  
+  .buttons-container {
+    width: 20%;
+  }
+  #start-button {
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  #stop-button {
+    display: none;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+  }
